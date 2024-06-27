@@ -8,17 +8,15 @@
   .li-colors {
     color: #f3f8ff;
     list-style: none;
-    
-   
-    
-    
-    
-  }
+    text-decoration: none;
+
+    }
   
   .header-style {
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
    
   }
   
