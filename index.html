@@ -3,110 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
 <title>CINEMA 1</title>
 </head>
-<body id="page-fonts">
+<body>
     <header>
-        
-        <div>
-           <img src="images/Cinema1.png" alt=""><span class="cinema-style">CINEMA 1</span>
+        <div class="header">
+        <a href="./index.html" class="logoContainer">
+            <img src="./images/Cinema1.png" alt="" class="logoContainer__logo">
+            <h1 class="logoContainer__name">CINEMA 1</h1>
+
+        </a>
+        <div class="searchContainer">
+            <form class="searchContainer__form">
+                <input type="text" name="search" class="serachContainer__form__searchInput">
+                <button type="submit" class="searchContainer__form__button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
         </div>
-        
-        <section class="header-style">
-<div>
-    
-    <p style="color: #AED2FF; font-style: italic;">İstediğin An, İstediğin Film!</p>
-</div>
-
-        <nav>
-        <div>
-        <ul class="li-colors rowing">
-            <li><a href="./index.html">Ana Sayfa</a></li>
-            <li><a href="#yenifilmler">Yeni Filmler</a></li>
-            <li><a href="./index.html">En Çok İzlenenler</a></li>
+       <nav class="navBar">
+        <ul class="navBar__list">
+            <li class="navBar__list__item"><a href="#" class="navBar__list__item__link">Ana sayfa</a></li>
+            <li class="navBar__list__item"><a href="#" class="navBar__list__item__link">Yeni filmler</a></li>
+            <li class="navBar__list__item"><a href="#" class="navBar__list__item__link">En çok izlenenler</a></li>
+            
         </ul>
-       </div>
-       
-       <div>
-        <input type="search"><button style="margin-left: 2px; 
-        border-radius: 10px; "> Film Ara</button>
-       </div>
-    </nav>
-       </section>
-
+       </nav>
+    </div>
     </header>
-    <hr>
-    <div id="yenifilmler">
-        <main>
-    <h2 style="color: black;">YENİ FİLMLERİ ŞİMDİ İZLE</h2>
-    </div>
-    <div >
-        <ul class="li-colors">
-            <li><a href=""><img width="340" src="images/artificial-intelligence-film-afisi.jpg" alt="artificial-intelligence" style="border-radius: 10px;"><p>Yapay Zeka</p></a></li>
-            <li><a href=""><img width="340" src="images/200-A-Space-Odyssey-afis.jpg" alt="A space odyssey" style="border-radius: 10px;" ><p>A Space Odyssey</p></a></li>
-            <li><a href=""><img width="340" src="images/akil-oyunlari-film-afisi.jpg" alt="a beautiful mind" style="border-radius: 10px;"><p>Akıl Oyunları</p></li>
-            <li><a href=""><img width="340" src="images/alice-harikalar-diyarinda-film-afisi.jpg" alt="Alice in Wonderland" style="border-radius: 10px;"><p>Alis Harikalar Diyarında</p></a></li>
-            <li><a href=""><img width="340" src="images/avatar.jpg" alt="Avatar" style="border-radius: 10px; " ><p>Avatar</p></a></li>
-            <li><a href=""><img width="340" src="images/avengers-end-game-film-poster.jpg" alt="avengers endgame" style="border-radius: 10px;"><p>Yenilmezler: Son oyun</p></a></li>
-            <li><a href=""><img width="340" src="images/avengers-sonsuzluk-savasi-film-poster-1.jpg" alt="avengers infinity war" style="border-radius: 10px;"><p>Yenilmezler: Sonsuzluk Savaşı</p></a></li>
-            <li><a href=""><img width="340" src="images/batman-ve-superman-poster.jpg" alt="Batman v Superman" style="border-radius: 10px;"><p>Batman Süpermen'e Karşı: Adaletin Şafağı</p></a></li>
-            <li><a href=""><img width="340" src="images/benjamin-button-film-posteri.jpg" alt="benjamin button" style="border-radius: 10px;"><p>Benjamin Button'un Tuhaf Hikayesi</p></a></li>
-            <li><a href=""><img width="340" src="images/big-lebowski-film-posteri.jpg" alt="Big Lebowski" style="border-radius: 10px;"><p>Koca Lebowski</p></a></li>
-            <li><a href=""><img width="340" src="images/blade-runner-2049-afisi.jpg" alt="Blade runner 2049" style="border-radius: 10px;"><p>Blade Runner 2049</p></a></li>
-            <li><a href=""><img width="340" src="images/bohemian-rhapsody-film-afisi.jpg" alt="Bohemian Rhapsody" style="border-radius: 10px;"><p>Queen: Bohemian Rhapsody</p></a></li>
-            <li><a href=""><img width="340" src="images/chucky-poster.jpg" alt="Child's Play" style="border-radius: 10px;"><p>Çocuk Oyunu</p></a></li>
-            <li><a href=""><img width="340" src="images/climax-2018-film-poster.jpg" alt="Climax" style="border-radius: 10px;"><p>Climax</p></a></li>
-            <li><a href=""><img width="340" src="images/deadpool-2016-poster.jpg" alt="Deadpool" style="border-radius: 10px;"><p>Deadpool</p></a></li>
-            <li><a href=""><img width="340" src="images/Django-Unchained-Zincirsiz-posteri.jpg" alt="Django Unchained" style="border-radius: 10px;"><p>Django: Zincirsiz</p></a></li>
-            <li><a href=""><img width="340" src="images/e.t-film-posteri.jpg" alt="E.T" style="border-radius: 10px;"><p>E.T</p></a></li>
-            <li><a href=""><img width="340" src="images/er-ryani-kurtarmak-saving-private-ryan-afisi.jpg" alt="Saving Private Ryan" style="border-radius: 10px;"><p>Er Ryan'ı Kurtarmak</p></a></li>
-            <li><a href=""><img width="340" src="images/Fight-Club-2-poster.jpg" alt="Fight Club" style="border-radius: 10px;"><p>Dövüş Kulübü</p></a></li>
-            <li><a href=""><img width="340" src="images/forrest-gump-poster-satin-al.jpg" alt="Forrest Gump" style="border-radius: 10px;"><p>Forrest Gump</p></a></li>
-        </ul>
-    </div>
-    <div>
-        <h3>Türlere Göre Filmler</h3>
-        <nav>
-            <button>Aksiyon</button>
-            <button>Komedi</button>
-            <button>Macera</button>
-            <button>Gizem</button>
-            <button>Aile</button>
-            <button>Animasyon</button>
-            <button>Bilim Kurgu</button>
-            <button>Korku Gerilim</button>
-            <button>Yabancı Filmler</button>
-            <button>Yerli Filmler</button>
-        </nav>
-    </div>
-</main>
-
-<footer style="font-family: Roboto; font-size: 14px; letter-spacing: 0.00; background-color: #9400FF;">
-    <div><P style="font-size: larger; font-weight: 800;">CINEMA 1 - 2024</P></div>
-
-       <div>
-        <a href="https://www.imdb.com/">IMDB'ye Git</a>
-       </div>
-
-       <div>
-        <a href="https://www.rottentomatoes.com/"> Rottentomatoes'a Git</a>
-       </div>
-       <div>
-        <a href="mailto:firat.acun.1@outlook.com">Mail İletişim</a>
-       </div>
-       <div>
-        <a href="https://www.x.com">Twitter (X)</a>
-       </div>
-    <hr>
-
-</footer>
     
 </body>
 </html>
