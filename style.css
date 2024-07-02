@@ -19,7 +19,7 @@ body
 header 
 {
   width: 100%;
-  background-color: yellow;
+  background-image: linear-gradient(#27005D , #9400FF);
 }
 .header 
 {
@@ -37,12 +37,13 @@ header
   align-items: center;
   gap: 4rem;
   text-decoration: none;
-  color: blue;
+  color: #FFC100;
   flex: 1;
 }
 .logoContainer__logo 
 {
-  width: 7rem;
+  width: 8rem;
+ 
 }
 .logoContainer__name 
 {
@@ -54,7 +55,8 @@ header
   flex: 1;
   
 }
-.searchContainer__form{
+.searchContainer__form
+{
   position: relative;
   
 }
@@ -92,11 +94,75 @@ header
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  
   flex-wrap: wrap;
 }
 .navBar__list__item__link{
   text-decoration: none;
   font-size: 2rem;
+  color: #FFC100;
+  font-weight: 500;
 }
+.page_style
+{
+  background-image: linear-gradient(#27005D , #9400FF);
+  width: 100%
+}
+.htwo{
+  background-color: ;
+  width: 100%;
+  height: 9rem;
+}
+
+.htwo_style{
+ color: #FFC100;
+ font-weight: 800;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 4rem;
+ padding-top: 2.2rem;
+ 
+}
+.movie_list_container{
+ margin-left: 2rem;
+ list-style: none;
+ display: list-item ;
+ column-count: 5;
+ justify-content: space-between;
+ gap: 3rem;
+ 
+ 
+}
+.movie_list_container_li
+{
+font-weight: 500;
+text-align: center;
+font-size: 2rem;
+margin-bottom: 4rem;
+display: flex;
+justify-content: space-between;
+}
+.img_container
+{ 
+  
+  flex-wrap: wrap;
+  display: flex;
+  border-radius: 2rem;
+  border: #FFC100 10px solid;
+}
+.a_text{
+color: #FFC100;
+text-decoration: none;
+justify-content: center;
+text-align: center;
+text-wrap: wrap;
+
+
+
+
+
+}
+
+
+
 
